@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){var $btn=jQuery("#show-toggle");if($btn.length!==0){var $container=jQuery("#show-toggle-box");$btn.on("click",function showmore(){$container.toggleClass("showless");$btn.toggleClass("hide-more")})}})

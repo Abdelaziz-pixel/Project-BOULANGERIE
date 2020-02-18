@@ -98,6 +98,39 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.En-tête{
+  background-color: aqua;
+}
+.Orientation{
+  display: inline-block;
+}
+body{
+  background-color: chartreuse;
+}
+.Navigation{
+  background-color: cornflowerblue;
+}
+.Presentation{
+  background-color: darkgoldenrod;
+}
+.Button{
+  background-color: darkorange;
+}
+.Article{
+  background-color: lightseagreen;
+}
+.Patisserie{
+  background-color: deeppink;
+}
+.Pains{
+  background-color: gold;
+}
+.Sandwich{
+  background-color: gray;
+}
+Footer{
+  background-color: royalblue;
+}
 
 
 
@@ -123,7 +156,8 @@ textarea {
 
 
 
-   
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */

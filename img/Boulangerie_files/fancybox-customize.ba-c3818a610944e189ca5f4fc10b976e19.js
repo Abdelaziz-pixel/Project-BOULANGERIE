@@ -1,0 +1,1 @@
+var $=jQuery.noConflict();jQuery(document).ready(function($){$("[data-fancybox]").fancybox({toolbar:!1,smallBtn:!0,iframe:{preload:!1}})})
