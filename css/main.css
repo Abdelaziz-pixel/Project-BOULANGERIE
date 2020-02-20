@@ -173,6 +173,7 @@ body{
   display: flex;
   justify-content: space-between;
   padding: 5%;
+  text-align: center;
 }
 .Patisserie{
   background-color: black;
@@ -211,7 +212,7 @@ Footer i{
   color: sandybrown;
 }
 
-@media (min-width: 450px) and (max-width: 599px){
+@media (min-width: 374px) and (max-width: 599px){
   p{
     color: white;
   }
@@ -222,7 +223,7 @@ Footer i{
     flex-direction: column;
     height: auto;
   }
-  
+
 }
 @media (min-width: 600px) and (max-width: 999px){
   p{
