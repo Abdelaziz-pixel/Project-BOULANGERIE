@@ -99,64 +99,136 @@ textarea {
    ========================================================================== */
 
 .En-tête{
-  background-color: aqua;
+  background-color: black;
+}
+.Sous-tête{
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
 }
 .Orientation{
-  display: inline-block;
+  background-color: black;
+  width: 30%;
+  block-size: 20%;
+}
+.BarNav{
+  background-color: black;
+  width: 30%;
+  text-align: center;
+  padding-top: 5%;
 }
 body{
-  background-color: chartreuse;
+  background-color: sandybrown;
+  padding: 2%;
 }
 .Navigation{
-  background-color: cornflowerblue;
+  background-color: sandybrown;
+}
+.BarNav{
+  color: white;
+}
+#nav {
+  padding: 0; margin: 0;
+}
+#nav li {
+	display: inline;
+  list-style: none;
+}
+#nav a {
+	display:inline-block;
+  margin: 30px;
+  color: #000;
 }
 .Presentation{
-  background-color: darkgoldenrod;
+  background-color: black;
+  padding: 2%;
 }
 .Button{
-  background-color: darkorange;
+  background-color: black;
+  padding: 5%;
+}
+.liens{
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+}
+.liens button{
+  width: 100%;
+  background-color:sandybrown;
+  border-color:white solid 2px;
+  color:black;
+}
+.liens h4{
+  color: sandybrown;
+}
+.text{
+  background-color: black;
+  text-align: center;
+  padding: 5%;
+  color: white;
+  width: 90%;
 }
 .Article{
-  background-color: lightseagreen;
+  background-color: sandybrown;
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
 }
 .Patisserie{
-  background-color: deeppink;
+  background-color: black;
+  width: 30%;
+  text-align: center;
+  color: white;
 }
 .Pains{
-  background-color: gold;
+  background-color: black;
+  width: 30%;
+  text-align: center;
+  color: white;
 }
 .Sandwich{
-  background-color: gray;
+  background-color: black;
+  width: 30%;
+  text-align: center;
+  color: white;
 }
 Footer{
-  background-color: royalblue;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+Footer i{
+  color:white;
+}
+#fond {
+  background:url('https://s1.1zoom.me/big0/108/Bread_Garlic_Salo_Food_Eggs_559925_1365x1024.jpg') no-repeat top left;
+  position: static;
+  width:80%;
+  text-align: center;
+  padding: 5%;
+  }
+#contenu{
+  color: sandybrown;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (min-width: 450px) and (max-width: 599px){
+  p{
+    color: white;
+  }
+  .BarNav{
+    display: none;
+  }
+  .Article{
+    flex-direction: column;
+    height: auto;
+  }
+  
+}
+@media (min-width: 600px) and (max-width: 999px){
+  p{
+    color: blue;
+  }
+}
 
 /* ==========================================================================
    Helper classes
