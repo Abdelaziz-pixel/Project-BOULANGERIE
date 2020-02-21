@@ -219,9 +219,15 @@ Footer i{
   .BarNav{
     display: none;
   }
+  body{
+    width: auto;
+  }
   .Article{
     flex-direction: column;
-    height: auto;
+    /* height: auto;
+    width: auto; */
+    align-items: center;
+
   }
 
 }
